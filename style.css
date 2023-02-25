@@ -1,0 +1,8 @@
+body {
+  background-color: #f5f6f7;
+  color: #4c4c4c;
+  font: 400 14px/1.6 'Helvetica Neue',Helvetica,Arial;
+  font-size: 14px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  padding: 2vw;
+}
