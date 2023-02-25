@@ -15,7 +15,14 @@
   <h2>Useful commands and cheatsheets for everyday life of a fullstack engineer.</h2>
   <section>
     <h3>Git</h3>
-    <p>Remove merged branches: <b>git fetch --all --prune && git branch --v | grep "\[gone\]" | awk '{print $1}' | xargs git branch -D</b></p>  
+    <p>Remove merged branches: <b>git fetch --all --prune && git branch --v | grep "\[gone\]" | awk '{print $1}' | xargs git branch -D</b></p> 
+    <p>Reset to master: <b>git reset --hard origin/master</b></p>
+    <p>Pull only with fast forward: <b>git config --global pull.ff only</b></p>
+    <aside>
+      <h4>Remove unstaged files:</h4>
+      <p>Display files to be removed: <b>git clean -n</b></p>
+      <p>Do the actual deletion: <b>git clean -f</b></p>
+    <aside>  
   </section>
   </body>
 </html>
