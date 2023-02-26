@@ -12,5 +12,11 @@ body {
   padding: 2px;
   padding-inline: 5px;
   background-color: #00000096;
-  color: #e7e7e7;  
+  color: #e7e7e7;    
+}
+
+.command::before {
+  content: ('➜') 
+  background-color: #00000096;
+  color: #f38b08;
 }
