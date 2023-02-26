@@ -8,6 +8,8 @@ body {
 }
 
 .command {
-  background-color: #000000;
-  color: #FFFFFF;
+  display: inline-block;
+  padding: 2px;
+  background-color: #00000096;
+  color: #e7e7e7;  
 }
