@@ -6,3 +6,8 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
   padding: 2vw;
 }
+
+.command {
+  background-color: #000000;
+  color: #FFFFFF;
+}
