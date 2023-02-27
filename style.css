@@ -17,6 +17,6 @@ body {
 
 .command::before {
   content: "👉";
-  margin-incline: 5px;
+  margin-inline: 5px;
   color: #f38b08;
 }
