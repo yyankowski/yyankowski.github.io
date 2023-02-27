@@ -16,7 +16,7 @@ body {
 }
 
 .command::before {
-  content: ("➜");
-  background-color: #00000096;
+  content: "👉";
+  margin-incline: 5px;
   color: #f38b08;
 }
